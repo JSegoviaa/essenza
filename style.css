@@ -259,12 +259,160 @@
   }
 }
 
+/* AMENIDADES */
 .amenidades {
-  background: url('/assets/amenidades/amenidades-vista-normal/area-ninos-1.jpg')
-    center center/cover;
+  height: 700px;
 }
-.amenidades:hover {
-  background-image: url('/assets/amenidades/amenidades-tono-verde/area-ninos-2.jpg');
+
+.amenidades1 {
+  background: url('/assets/amenidades/amenidades-vista-normal/area-ninos-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades1:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/area-ninos-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades2 {
+  background: url('/assets/amenidades/amenidades-vista-normal/basket-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades2:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/basket-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades3 {
+  background: url('/assets/amenidades/amenidades-vista-normal/cafe-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades3:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/cafe-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades4 {
+  background: url('/assets/amenidades/amenidades-vista-normal/caseta-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades4:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/caseta-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades5 {
+  background: url('/assets/amenidades/amenidades-vista-normal/futbol-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades5:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/futbol-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades6 {
+  background: url('/assets/amenidades/amenidades-vista-normal/maket-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades6:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/maket-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades7 {
+  background: url('/assets/amenidades/amenidades-vista-normal/montesori-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades7:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/montesori-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades8 {
+  background: url('/assets/amenidades/amenidades-vista-normal/punta-marea.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades8:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/punta-marea-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades9 {
+  background: url('/assets/amenidades/amenidades-vista-normal/tenis-1.jpg')
+    center center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades9:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/tenis-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+}
+.amenidades10 {
+  background: url('/assets/amenidades/amenidades-vista-normal/voley.jpg') center
+    center/cover !important;
+  height: 400px !important;
+  color: transparent;
+}
+
+.amenidades10:hover {
+  background-image: url('/assets/amenidades/amenidades-tono-verde/voley-2.jpg') !important;
+  height: 400px;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
 }
 
 /*MASTER PLAN*/
