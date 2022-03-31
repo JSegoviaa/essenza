@@ -259,6 +259,16 @@
   }
 }
 
+.nuestras-amenidades {
+  background: #415925;
+  width: 50%;
+  margin-left: auto;
+}
+
+.nuestras-amenidades-img {
+  width: 80%;
+}
+
 /* AMENIDADES */
 .amenidades {
   height: 700px;
@@ -272,12 +282,14 @@
 }
 
 .amenidades1:hover {
-  background-image: url('/assets/amenidades/amenidades-tono-verde/area-ninos-2.jpg') !important;
-  height: 400px;
+  background: url('/assets/amenidades/amenidades-tono-verde/area-ninos-2.jpg')
+    center center/cover !important;
   font-size: 30px;
   padding: 10px;
   color: white;
   text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.87);
+  height: 420px;
+  transform: scale(2);
 }
 .amenidades2 {
   background: url('/assets/amenidades/amenidades-vista-normal/basket-1.jpg')
