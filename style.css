@@ -2,6 +2,10 @@
   background-color: #6f8755;
 }
 
+.bground-form {
+  background-color: #ba7a5a;
+}
+
 .fs-22 {
   font-size: 22px;
 }
@@ -44,6 +48,42 @@
 
 .text-grey {
   color: #595858;
+}
+
+/*Menú left*/
+.sidebar-menu {
+  position: absolute;
+  height: 100vh;
+  background-color: #415925;
+  width: 250px;
+  transform: translateX(-100%);
+  transition: 300ms;
+  opacity: 0.9;
+}
+
+.menu-toggle {
+  position: absolute;
+  height: 100vh;
+  background-color: #415925;
+  width: 250px;
+  transition: 300ms;
+  opacity: 0.9;
+}
+
+ul {
+  padding-top: 100px;
+}
+.nav-item {
+  margin: 20px 0;
+  list-style: none;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 9999 !important;
 }
 
 /*MAIN*/
@@ -89,6 +129,9 @@
 }
 
 @media (max-width: 767px) {
+  .main-logo {
+    width: 350px;
+  }
 }
 
 @media (max-width: 666px) {
@@ -101,9 +144,9 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main-logo {
-    width: 100%;
+    width: 320px;
   }
 }
 
@@ -175,7 +218,20 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 680px) {
+  .form-superior {
+    display: none;
+  }
+  .formulario {
+    display: none;
+  }
+}
+
+@media (min-width: 681px) {
+  .form-superior-res {
+    display: none;
+    background: #ba7a5a;
+  }
 }
 
 /*INFO*/

@@ -21,9 +21,28 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   </head>
   <body>
+    <!-- Navegación -->
+    <div class="sidebar-menu menu-toggle">
+      <ul>
+        <li class="nav-item">
+          <a href="#descubre-essenza">Descubre Essenza</a>
+        </li>
+        <li class="nav-item"><a href="#amenidades">Amenidades</a></li>
+        <li class="nav-item"><a href="#master-plan">Master plan</a></li>
+        <li class="nav-item"><a href="#contacto">Contacto</a></li>
+        <li class="nav-item"><a href="#ubicacion">Ubicación</a></li>
+      </ul>
+    </div>
+
     <!-- Main -->
+
     <div class="main">
-      <img class="main-menu" src="/assets/menu.png" alt="Essenza" />
+      <img
+        id="menu-icon"
+        class="main-menu"
+        src="/assets/menu.png"
+        alt="Essenza"
+      />
       <div class="d-flex justify-content-center pt-5">
         <img class="main-logo" src="/assets/logo.png" alt="Essenza" />
       </div>
@@ -78,8 +97,45 @@
       </div>
     </div>
 
+    <div class="form-superior-res bground-form py-5 container-md">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <form>
+          <div class="text-white fs-40 text-center residenciales-titulo">
+            LOTES RESIDENCIALES PREMIUM
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <input
+                class="input-contacto-sup"
+                type="text"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                class="input-contacto-sup"
+                type="text"
+                placeholder="Teléfono"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-9">
+              <input
+                class="input-contacto-sup"
+                type="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="col-3">
+              <button class="btn btn-white text-green">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
     <!-- Info -->
-    <section class="info">
+    <section id="descubre-essenza" class="info">
       <div class="container container-info d-flex align-items-center h-100">
         <div>
           <div class="fs-40 text-green-title text-center pt-5 info-titulo">
@@ -106,7 +162,7 @@
     </section>
 
     <!-- Amenidades -->
-    <div class="container">
+    <div id="amenidades" class="container">
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide amenidades">asdf</div>
@@ -135,7 +191,7 @@
     </div>
 
     <!-- Mater plan -->
-    <section class="bg-master-plan d-flex">
+    <section id="master-plan" class="bg-master-plan d-flex">
       <div class="container justify-content-center align-self-center">
         <div class="row align-middle">
           <div class="col-md-6 d-flex justify-content-center">
@@ -168,7 +224,7 @@
     </section>
 
     <!-- Contacto -->
-    <div class="contacto">
+    <div id="contacto" class="contacto">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 pt-5">
@@ -262,7 +318,7 @@
       />
     </div>
     <!-- Ubicacion -->
-    <div>
+    <div id="ubicacion">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.774828072256!2d-87.03767375980682!3d20.68062999968218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5d65abdbba47%3A0x46893876b13ae801!2sSelvamar!5e0!3m2!1ses!2smx!4v1648402571373!5m2!1ses!2smx"
         width="100%"
@@ -297,6 +353,7 @@
       </div>
     </footer>
     <script src="/swiper.js"></script>
+    <script src="/menu.js"></script>
     <script src="/chageImg.js"></script>
   </body>
 </html>
